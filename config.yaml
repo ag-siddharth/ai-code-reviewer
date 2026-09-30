@@ -1,0 +1,24 @@
+review_focus:
+  - missing_error_handling
+  - type_hints
+  - docstrings
+  - security
+  - naming
+
+max_files: 50
+model: claude-sonnet-4-6
+max_tokens: 2000
+
+# file extensions to process
+extensions:
+  - py
+  - ts
+
+# directories to skip
+ignore_dirs:
+  - node_modules
+  - __pycache__
+  - .git
+  - venv
+  - dist
+  - build

@@ -1,0 +1,6 @@
+anthropic==0.39.0
+click==8.1.7
+pyyaml==6.0.1
+python-dotenv==1.0.1
+pygithub==2.3.0
+rich==13.7.1
